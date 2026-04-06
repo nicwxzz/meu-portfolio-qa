@@ -34,6 +34,8 @@
 * Interromper fluxo no meio do checkout
 * Validar comportamento em ações inesperadas
 
+
+
 # 📋 Casos de Teste
 
 ## 🔐 CT-01: Acesso à página do produto
