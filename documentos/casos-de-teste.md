@@ -41,12 +41,10 @@
 **Pré-condição:** Usuário com acesso à internet
 
 **Passos:**
-
 1. Acessar a URL da página do produto
 2. Aguardar carregamento completo
 
 **Resultado esperado:**
-
 * A página deve carregar corretamente
 * Todas as informações do produto devem ser exibidas (nome, descrição, preço)
 * Imagens devem ser carregadas sem erro
