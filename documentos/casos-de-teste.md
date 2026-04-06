@@ -182,7 +182,7 @@ Passou
 O formulário foi acessado e preenchido com sucesso. Todos os campos obrigatórios estavam funcionais. O campo de quantidade permite apenas a seleção de valores pré-definidos (ex: 50, 100), sem opção de entrada manual. De acordo com o contexto da aplicação, esse comportamento está alinhado com a proposta da empresa de atender pedidos em escala. No entanto, a interface não deixa essa limitação explícita, o que pode gerar dúvida para usuários que esperam inserir quantidades menores.
 
 **Evidência:**
-![CT-06](../evidencias/CT-06-formulario-enquiry.png)
+![CT-06](../evidencias/CT-06-preencher-formulario.png)
 
 ---
 
