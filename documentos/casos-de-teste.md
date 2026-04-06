@@ -1,38 +1,33 @@
 # 🧪 Cenários de Teste
 
 ## 🔹 Página do Produto
-
-* Validar carregamento da página do produto
-* Validar exibição correta das informações (nome, descrição, preço)
-* Validar imagens do produto
-* Validar responsividade básica da página
+* Validar carregamento completo da página do produto.
+* Verificar exibição correta das informações: nome, descrição e preço.
+* Validar imagens do produto (quantidade, resolução e visualização).
+* Testar responsividade básica da página em diferentes dispositivos.
 
 ## 🔹 Personalização do Produto
-
-* Inserir texto válido no campo de personalização
-* Tentar prosseguir sem preencher campos obrigatórios
-* Inserir caracteres especiais
-* Inserir texto muito longo (limite)
+* Inserir texto válido no campo de personalização e validar salvamento.
+* Tentar prosseguir sem preencher campos obrigatórios e validar mensagens de erro.
+* Inserir caracteres especiais e validar comportamento do sistema.
+* Inserir texto muito longo e verificar se respeita o limite definido.
 
 ## 🔹 Carrinho
-
-* Adicionar produto ao carrinho
-* Adicionar produto sem personalização (quando obrigatório)
-* Alterar quantidade do produto
-* Remover produto do carrinho
+* Adicionar produto ao carrinho e validar atualização de itens.
+* Tentar adicionar produto sem personalização quando esta for obrigatória.
+* Alterar quantidade de produtos e validar cálculos do subtotal.
+* Remover produto do carrinho e validar atualização correta.
 
 ## 🔹 Fluxo de Compra
-
-* Iniciar checkout com produto no carrinho
-* Preencher dados obrigatórios corretamente
-* Tentar avançar com campos vazios
-* Validar continuidade do fluxo até finalização
+* Iniciar checkout com produto no carrinho.
+* Preencher todos os dados obrigatórios corretamente e avançar no fluxo.
+* Tentar avançar com campos obrigatórios vazios e validar mensagens de erro.
+* Validar continuidade do fluxo até finalização da compra, incluindo resumo e confirmação.
 
 ## 🔹 Cenários Negativos
-
-* Submeter formulário com dados inválidos
-* Interromper fluxo no meio do checkout
-* Executar ações fora do fluxo esperado (ex: atualizar página durante checkout)
+* Submeter formulário com dados inválidos e validar mensagens de erro.
+* Interromper fluxo no meio do checkout e verificar comportamento do sistema.
+* Executar ações fora do fluxo esperado (ex: atualizar página durante checkout) e validar tratamento de erros.
 
 # 📋 Casos de Teste
 
@@ -183,6 +178,10 @@ O formulário foi acessado e preenchido com sucesso. Todos os campos obrigatóri
 
 **Evidência:**
 ![CT-06](../evidencias/CT-06-preencher-formulario.png)
+
+---
+
+
 
 ---
 
