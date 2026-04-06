@@ -133,4 +133,29 @@ O produto foi removido do carrinho com sucesso. A interface foi atualizada imedi
 
 ---
 
+## 🛒 CT-05: Acessar carrinho sem produtos
+
+**Pré-condição:** Nenhum produto adicionado ao carrinho
+
+**Passos:**
+1. Acessar o carrinho
+2. Observar o comportamento da página ao carregar
+3. Interagir com a página (ex: mover o mouse)
+
+**Resultado esperado:**
+* O carrinho deve exibir corretamente o estado vazio
+* Deve ser exibida uma mensagem informando que não há produtos no carrinho
+* A interface deve permanecer estável sem alterações inesperadas
+
+**Resultado obtido:**
+Falhou
+
+**Observações:**
+Foi possível acessar o carrinho normalmente. Inicialmente, a página exibiu campos relacionados ao preenchimento de dados para compra. No entanto, ao mover o mouse, a página foi atualizada automaticamente e esses campos desapareceram, retornando para o estado correto de carrinho vazio com a mensagem "There are no product added in the enquiry cart". Esse comportamento indica inconsistência na renderização da interface.
+
+**Evidência:**
+![CT-05](../evidencias/CT-05-carrinho-vazio.png)
+
+---
+
 
