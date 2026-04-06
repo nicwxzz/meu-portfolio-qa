@@ -45,4 +45,4 @@ A automação de testes será implementada futuramente utilizando ferramentas co
 Em desenvolvimento
 
 ## 👤 Autor
-Nicolas
+Nicolas Oliveira
