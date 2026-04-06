@@ -32,9 +32,7 @@
 
 * Submeter formulário com dados inválidos
 * Interromper fluxo no meio do checkout
-* Validar comportamento em ações inesperadas
-
-
+* Executar ações fora do fluxo esperado (ex: atualizar página durante checkout)
 
 # 📋 Casos de Teste
 
@@ -48,7 +46,10 @@
 2. Aguardar carregamento completo
 
 **Resultado esperado:**
-A página deve carregar corretamente exibindo todas as informações do produto
+
+* A página deve carregar corretamente
+* Todas as informações do produto devem ser exibidas (nome, descrição, preço)
+* Imagens devem ser carregadas sem erro
 
 ---
 
@@ -62,7 +63,9 @@ A página deve carregar corretamente exibindo todas as informações do produto
 2. Verificar se o campo aceita o conteúdo
 
 **Resultado esperado:**
-O sistema deve aceitar o texto sem apresentar erros
+
+* O sistema deve aceitar o texto inserido
+* Nenhuma mensagem de erro deve ser exibida
 
 ---
 
@@ -76,7 +79,9 @@ O sistema deve aceitar o texto sem apresentar erros
 2. Tentar adicionar ao carrinho
 
 **Resultado esperado:**
-O sistema deve exibir mensagem de erro e impedir a ação
+
+* O sistema deve impedir a ação
+* Deve ser exibida uma mensagem de erro indicando campo obrigatório
 
 ---
 
@@ -89,7 +94,10 @@ O sistema deve exibir mensagem de erro e impedir a ação
 1. Clicar em "Adicionar ao carrinho"
 
 **Resultado esperado:**
-O produto deve ser adicionado ao carrinho com sucesso
+
+* O produto deve ser adicionado ao carrinho
+* O contador do carrinho deve ser atualizado
+* Deve haver feedback visual da ação (ex: mensagem ou mudança no botão)
 
 ---
 
@@ -103,7 +111,9 @@ O produto deve ser adicionado ao carrinho com sucesso
 2. Alterar quantidade do item
 
 **Resultado esperado:**
-A quantidade deve ser atualizada corretamente
+
+* A quantidade deve ser atualizada corretamente
+* O valor total da compra deve ser recalculado
 
 ---
 
@@ -116,7 +126,9 @@ A quantidade deve ser atualizada corretamente
 1. Clicar em remover item
 
 **Resultado esperado:**
-O produto deve ser removido do carrinho
+
+* O produto deve ser removido do carrinho
+* O carrinho deve refletir a remoção imediatamente
 
 ---
 
@@ -129,7 +141,9 @@ O produto deve ser removido do carrinho
 1. Clicar em finalizar compra
 
 **Resultado esperado:**
-Usuário deve ser direcionado para a página de checkout
+
+* O usuário deve ser redirecionado para a página de checkout
+* A página deve carregar corretamente
 
 ---
 
@@ -143,7 +157,9 @@ Usuário deve ser direcionado para a página de checkout
 2. Tentar avançar
 
 **Resultado esperado:**
-O sistema deve exibir mensagens de validação
+
+* O sistema deve impedir o avanço
+* Mensagens de validação devem ser exibidas indicando os campos obrigatórios
 
 ---
 
@@ -157,7 +173,9 @@ O sistema deve exibir mensagens de validação
 2. Confirmar compra
 
 **Resultado esperado:**
-A compra deve ser concluída com sucesso
+
+* O sistema deve concluir o pedido com sucesso
+* O usuário deve visualizar uma mensagem ou página de confirmação da compra
 
 ---
 
@@ -171,4 +189,6 @@ A compra deve ser concluída com sucesso
 2. Tentar continuar
 
 **Resultado esperado:**
-O sistema deve bloquear o avanço e exibir erro
+
+* O sistema deve bloquear o avanço
+* Deve exibir mensagens de erro indicando os campos inválidos
