@@ -36,28 +36,29 @@
 
 # 📋 Casos de Teste
 
-🔐 CT-01: Acesso à página do produto
+## 🔐 CT-01: Acesso à página do produto
 
-Pré-condição: Usuário com acesso à internet
+**Pré-condição:** Usuário com acesso à internet
 
-Passos:
+**Passos:**
 
-Acessar a URL da página do produto
-Aguardar carregamento completo
+1. Acessar a URL da página do produto
+2. Aguardar carregamento completo
 
-Resultado esperado:
+**Resultado esperado:**
 
-A página deve carregar corretamente
-Todas as informações do produto devem ser exibidas (nome, descrição, preço)
-As imagens devem ser carregadas sem erro
+* A página deve carregar corretamente
+* Todas as informações do produto devem ser exibidas (nome, descrição, preço)
+* Imagens devem ser carregadas sem erro
 
-Resultado obtido:
+**Resultado obtido:**
 Passou
 
-Observações:
-A página foi carregada com sucesso, exibindo corretamente todas as informações do produto. Não foram identificadas falhas visuais ou de carregamento.
+**Observações:**
+Página carregou corretamente, todas as informações visíveis e imagens exibidas sem erro
 
-Evidência:
+**Evidência:**
+![CT-01](../evidencias/CT-01-pagina-produto.png)
 
 ---
 
