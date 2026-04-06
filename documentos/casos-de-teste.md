@@ -49,6 +49,7 @@
 * Todas as informações do produto devem ser exibidas (nome, descrição, preço)
 * Imagens devem ser carregadas sem erro
 
+
 **Resultado obtido:**
 Passou
 
