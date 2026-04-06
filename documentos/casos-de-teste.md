@@ -158,4 +158,31 @@ Foi possível acessar o carrinho normalmente. Inicialmente, a página exibiu cam
 
 ---
 
+## 📄 CT-06: Preencher formulário de enquiry com produto no carrinho
+
+**Pré-condição:** Produto adicionado ao carrinho
+
+**Passos:**
+1. Acessar o carrinho
+2. Verificar se o produto está listado
+3. Localizar o formulário de enquiry
+4. Preencher os campos obrigatórios
+
+**Resultado esperado:**
+* O usuário deve conseguir acessar o formulário de enquiry
+* O formulário deve ser exibido corretamente
+* Os campos obrigatórios devem estar visíveis e preenchíveis
+* A interface deve permanecer estável durante a interação
+* O usuário deve conseguir preencher todos os campos
+
+**Resultado obtido:**
+Passou
+
+**Observações:**
+O formulário foi acessado e preenchido com sucesso. Todos os campos obrigatórios estavam funcionais. O campo de quantidade permite apenas a seleção de valores pré-definidos (ex: 50, 100), sem opção de entrada manual. De acordo com o contexto da aplicação, esse comportamento está alinhado com a proposta da empresa de atender pedidos em escala. No entanto, a interface não deixa essa limitação explícita, o que pode gerar dúvida para usuários que esperam inserir quantidades menores.
+
+**Evidência:**
+![CT-06](../evidencias/CT-06-formulario-enquiry.png)
+
+---
 
