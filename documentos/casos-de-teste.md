@@ -105,3 +105,32 @@ O carrinho foi acessado com sucesso. O produto adicionado foi exibido corretamen
 
 **Evidência:**
 ![CT-03](../evidencias/CT-03-acesso-carrinho.png)
+
+---
+
+## 🗑️ CT-04: Remover produto do carrinho
+
+**Pré-condição:** Produto adicionado ao carrinho
+
+**Passos:**
+1. Acessar o carrinho
+2. Localizar o produto adicionado
+3. Clicar na opção de remover item
+
+**Resultado esperado:**
+* O produto deve ser removido do carrinho
+* O carrinho deve ser atualizado imediatamente
+* O sistema deve refletir corretamente a remoção (ex: carrinho vazio ou atualização da lista)
+
+**Resultado obtido:**
+Passou
+
+**Observações:**
+O produto foi removido do carrinho com sucesso. A interface foi atualizada imediatamente, sem necessidade de recarregar a página, refletindo corretamente a remoção.
+
+**Evidência:**
+![CT-04](../evidencias/CT-04-remover-produto.png)
+
+---
+
+
