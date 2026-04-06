@@ -49,7 +49,6 @@
 * Todas as informações do produto devem ser exibidas (nome, descrição, preço)
 * Imagens devem ser carregadas sem erro
 
-
 **Resultado obtido:**
 Passou
 
@@ -61,142 +60,23 @@ Página carregou corretamente, todas as informações visíveis e imagens exibid
 
 ---
 
-## 📝 CT-02: Inserir personalização válida
+## 🛒 CT-02: Adicionar produto ao carrinho
 
 **Pré-condição:** Página do produto carregada
 
 **Passos:**
-
-1. Inserir texto válido no campo de personalização
-2. Verificar se o campo aceita o conteúdo
-
-**Resultado esperado:**
-
-* O sistema deve aceitar o texto inserido
-* Nenhuma mensagem de erro deve ser exibida
-
----
-
-## ❌ CT-03: Tentar prosseguir sem preencher personalização obrigatória
-
-**Pré-condição:** Campo de personalização obrigatório
-
-**Passos:**
-
-1. Não preencher o campo
-2. Tentar adicionar ao carrinho
+1. Clicar no botão "Add to Enquiry"
+2. Observar o comportamento do sistema após a ação
 
 **Resultado esperado:**
-
-* O sistema deve impedir a ação
-* Deve ser exibida uma mensagem de erro indicando campo obrigatório
-
----
-
-## 🛒 CT-04: Adicionar produto ao carrinho
-
-**Pré-condição:** Produto configurado corretamente
-
-**Passos:**
-
-1. Clicar em "Adicionar ao carrinho"
-
-**Resultado esperado:**
-
 * O produto deve ser adicionado ao carrinho
-* O contador do carrinho deve ser atualizado
-* Deve haver feedback visual da ação (ex: mensagem ou mudança no botão)
+* O ícone do carrinho deve ser atualizado (quantidade)
+* O sistema deve apresentar feedback visual da ação (ex: mensagem ou mudança no botão)
 
----
+**Resultado obtido:**
+Passou
 
-## 🔄 CT-05: Alterar quantidade do produto
+**Observações:**
+O produto foi adicionado ao carrinho com sucesso. O ícone do carrinho foi atualizado corretamente e houve feedback visual da ação.
 
-**Pré-condição:** Produto no carrinho
-
-**Passos:**
-
-1. Acessar carrinho
-2. Alterar quantidade do item
-
-**Resultado esperado:**
-
-* A quantidade deve ser atualizada corretamente
-* O valor total da compra deve ser recalculado
-
----
-
-## 🗑️ CT-06: Remover produto do carrinho
-
-**Pré-condição:** Produto no carrinho
-
-**Passos:**
-
-1. Clicar em remover item
-
-**Resultado esperado:**
-
-* O produto deve ser removido do carrinho
-* O carrinho deve refletir a remoção imediatamente
-
----
-
-## 💳 CT-07: Iniciar checkout
-
-**Pré-condição:** Produto no carrinho
-
-**Passos:**
-
-1. Clicar em finalizar compra
-
-**Resultado esperado:**
-
-* O usuário deve ser redirecionado para a página de checkout
-* A página deve carregar corretamente
-
----
-
-## ⚠️ CT-08: Validar campos obrigatórios no checkout
-
-**Pré-condição:** Página de checkout aberta
-
-**Passos:**
-
-1. Deixar campos obrigatórios vazios
-2. Tentar avançar
-
-**Resultado esperado:**
-
-* O sistema deve impedir o avanço
-* Mensagens de validação devem ser exibidas indicando os campos obrigatórios
-
----
-
-## ✅ CT-09: Finalizar compra com sucesso
-
-**Pré-condição:** Dados válidos preenchidos
-
-**Passos:**
-
-1. Preencher todos os campos obrigatórios
-2. Confirmar compra
-
-**Resultado esperado:**
-
-* O sistema deve concluir o pedido com sucesso
-* O usuário deve visualizar uma mensagem ou página de confirmação da compra
-
----
-
-## 🚫 CT-10: Inserir dados inválidos no checkout
-
-**Pré-condição:** Página de checkout aberta
-
-**Passos:**
-
-1. Inserir dados inválidos (ex: email incorreto)
-2. Tentar continuar
-
-**Resultado esperado:**
-
-* O sistema deve bloquear o avanço
-* Deve exibir mensagens de erro indicando os campos inválidos
+**Evidência:**
