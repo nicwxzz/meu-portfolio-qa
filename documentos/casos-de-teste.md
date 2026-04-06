@@ -80,3 +80,28 @@ Passou
 O produto foi adicionado ao carrinho com sucesso. O ícone do carrinho foi atualizado corretamente e houve feedback visual da ação.
 
 **Evidência:**
+![CT-01](../evidencias/CT-02-adicionar-carrinho.png)
+
+---
+
+## 🛒 CT-03: Acessar o carrinho
+
+**Pré-condição:** Produto adicionado ao carrinho
+
+**Passos:**
+1. Clicar no ícone do carrinho
+2. Acessar a página do carrinho
+
+**Resultado esperado:**
+* O usuário deve ser redirecionado para a página do carrinho
+* O produto adicionado deve estar listado no carrinho
+* As informações do produto devem estar corretas (nome, quantidade)
+
+**Resultado obtido:**
+Passou
+
+**Observações:**
+O carrinho foi acessado com sucesso. O produto adicionado foi exibido corretamente, com nome e quantidade conforme esperado.
+
+**Evidência:**
+![CT-03](../evidencias/CT-03-acesso-carrinho.png)
