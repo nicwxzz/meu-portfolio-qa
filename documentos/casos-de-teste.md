@@ -150,6 +150,28 @@ O formulário foi acessado e preenchido com sucesso. Todos os campos obrigatóri
 
 ---
 
+## 📤 CT-07: Enviar formulário de enquiry com dados válidos
+
+**Pré-condição:** Produto adicionado ao carrinho e formulário de enquiry acessado
+
+**Passos:**
+1. Preencher todos os campos obrigatórios com dados válidos
+2. Clicar no botão de envio do formulário
+3. Observar o comportamento do sistema após o envio
+
+**Resultado esperado:**
+* O formulário deve ser enviado com sucesso
+* O sistema deve apresentar uma mensagem de confirmação ou feedback ao usuário
+* Não devem ocorrer erros durante o envio
+
+**Resultado obtido:**
+(A ser preenchido após execução)
+
+**Observações:**
+(A ser preenchido com base no comportamento observado)
+
+**Evidência:**
+![CT-07](../evidencias/CT-07-envio-formulario.png)
 
 
 ---
