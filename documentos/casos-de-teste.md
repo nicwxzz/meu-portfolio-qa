@@ -5,12 +5,12 @@
 **Pré-condição:** Usuário com acesso à internet
 
 **Passos:**
-1. Acessar a URL da página do produto
+1. Acessar a URL da página do produto;
 2. Aguardar carregamento completo
 
 **Resultado esperado:**
-* A página deve carregar corretamente
-* Todas as informações do produto devem ser exibidas (nome, descrição, preço)
+* A página deve carregar corretamente;
+* Todas as informações do produto devem ser exibidas (nome, descrição, preço);
 * Imagens devem ser carregadas sem erro
 
 **Resultado obtido:**
@@ -32,12 +32,12 @@ Alta
 **Pré-condição:** Página do produto carregada
 
 **Passos:**
-1. Clicar no botão "Add to Enquiry"
+1. Clicar no botão "Add to Enquiry";
 2. Observar o comportamento do sistema após a ação
 
 **Resultado esperado:**
-* O produto deve ser adicionado ao carrinho
-* O ícone do carrinho deve ser atualizado (quantidade)
+* O produto deve ser adicionado ao carrinho;
+* O ícone do carrinho deve ser atualizado (quantidade);
 * O sistema deve apresentar feedback visual da ação (ex: mensagem ou mudança no botão)
 
 **Resultado obtido:**
@@ -59,12 +59,12 @@ Alta
 **Pré-condição:** Produto adicionado ao carrinho
 
 **Passos:**
-1. Clicar no ícone do carrinho
+1. Clicar no ícone do carrinho;
 2. Acessar a página do carrinho
 
 **Resultado esperado:**
-* O usuário deve ser redirecionado para a página do carrinho
-* O produto adicionado deve estar listado no carrinho
+* O usuário deve ser redirecionado para a página do carrinho;
+* O produto adicionado deve estar listado no carrinho;
 * As informações do produto devem estar corretas (nome, quantidade)
 
 **Resultado obtido:**
@@ -86,13 +86,13 @@ Alta
 **Pré-condição:** Produto adicionado ao carrinho
 
 **Passos:**
-1. Acessar o carrinho
-2. Localizar o produto adicionado
+1. Acessar o carrinho;
+2. Localizar o produto adicionado;
 3. Clicar na opção de remover item
 
 **Resultado esperado:**
-* O produto deve ser removido do carrinho
-* O carrinho deve ser atualizado imediatamente
+* O produto deve ser removido do carrinho;
+* O carrinho deve ser atualizado imediatamente;
 * O sistema deve refletir corretamente a remoção (ex: carrinho vazio ou atualização da lista)
 
 **Resultado obtido:**
@@ -114,13 +114,13 @@ Média
 **Pré-condição:** Nenhum produto adicionado ao carrinho
 
 **Passos:**
-1. Acessar o carrinho
-2. Observar o comportamento da página ao carregar
+1. Acessar o carrinho;
+2. Observar o comportamento da página ao carregar;
 3. Interagir com a página (ex: mover o mouse)
 
 **Resultado esperado:**
-* O carrinho deve exibir corretamente o estado vazio
-* Deve ser exibida uma mensagem informando que não há produtos no carrinho
+* O carrinho deve exibir corretamente o estado vazio;
+* Deve ser exibida uma mensagem informando que não há produtos no carrinho;
 * A interface deve permanecer estável sem alterações inesperadas
 
 **Resultado obtido:**
@@ -142,16 +142,16 @@ Baixa
 **Pré-condição:** Produto adicionado ao carrinho
 
 **Passos:**
-1. Acessar o carrinho
-2. Verificar se o produto está listado
-3. Localizar o formulário de enquiry
+1. Acessar o carrinho;
+2. Verificar se o produto está listado;
+3. Localizar o formulário de enquiry;
 4. Preencher os campos obrigatórios
 
 **Resultado esperado:**
-* O usuário deve conseguir acessar o formulário de enquiry
-* O formulário deve ser exibido corretamente
-* Os campos obrigatórios devem estar visíveis e preenchíveis
-* A interface deve permanecer estável durante a interação
+* O usuário deve conseguir acessar o formulário de enquiry;
+* O formulário deve ser exibido corretamente;
+* Os campos obrigatórios devem estar visíveis e preenchíveis;
+* A interface deve permanecer estável durante a interação;
 * O usuário deve conseguir preencher todos os campos
 
 **Resultado obtido:**
@@ -173,13 +173,13 @@ Alta
 **Pré-condição:** Produto adicionado ao carrinho e formulário de enquiry acessado
 
 **Passos:**
-1. Preencher todos os campos obrigatórios com dados válidos
-2. Clicar no botão de envio do formulário
+1. Preencher todos os campos obrigatórios com dados válidos;
+2. Clicar no botão de envio do formulário;
 3. Observar o comportamento do sistema após o envio
 
 **Resultado esperado:**
-* O formulário deve ser enviado com sucesso
-* O sistema deve apresentar uma mensagem de confirmação ou feedback ao usuário
+* O formulário deve ser enviado com sucesso;
+* O sistema deve apresentar uma mensagem de confirmação ou feedback ao usuário;
 * Não devem ocorrer erros durante o envio
 
 **Resultado obtido:**
@@ -201,20 +201,20 @@ Alta
 **Pré-condição:** Produto adicionado ao carrinho e formulário de enquiry acessado
 
 **Passos:**
-1. Acessar o formulário de enquiry
-2. Não preencher nenhum campo obrigatório
+1. Acessar o formulário de enquiry;
+2. Não preencher nenhum campo obrigatório;
 3. Clicar no botão de envio do formulário
 
 **Resultado esperado:**
-* O sistema deve impedir o envio do formulário
-* Devem ser exibidas mensagens de validação para os campos obrigatórios
+* O sistema deve impedir o envio do formulário;
+* Devem ser exibidas mensagens de validação para os campos obrigatórios;
 * Os campos inválidos devem ser destacados visualmente
 
 **Resultado obtido:**
-(A ser preenchido após execução)
+Passou
 
 **Observações:**
-(A ser preenchido com base no comportamento observado)
+O sistema bloqueou corretamente o envio do formulário. Foram exibidas mensagens de validação indicando os campos obrigatórios, garantindo a integridade dos dados.
 
 **Prioridade:**
 Alta
