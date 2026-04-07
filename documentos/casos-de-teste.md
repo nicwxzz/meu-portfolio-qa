@@ -19,6 +19,9 @@ Passou
 **Observações:**
 Página carregou corretamente, todas as informações visíveis e imagens exibidas sem erro
 
+**Prioridade:**
+Alta
+
 **Evidência:**
 ![CT-01](../evidencias/CT-01-pagina-produto.png)
 
@@ -43,6 +46,9 @@ Passou
 **Observações:**
 O produto foi adicionado ao carrinho com sucesso. O ícone do carrinho foi atualizado corretamente e houve feedback visual da ação.
 
+**Prioridade:**
+Alta
+
 **Evidência:**
 ![CT-01](../evidencias/CT-02-adicionar-carrinho.png)
 
@@ -66,6 +72,9 @@ Passou
 
 **Observações:**
 O carrinho foi acessado com sucesso. O produto adicionado foi exibido corretamente, com nome e quantidade conforme esperado.
+
+**Prioridade:**
+Alta
 
 **Evidência:**
 ![CT-03](../evidencias/CT-03-acesso-carrinho.png)
@@ -92,6 +101,9 @@ Passou
 **Observações:**
 O produto foi removido do carrinho com sucesso. A interface foi atualizada imediatamente, sem necessidade de recarregar a página, refletindo corretamente a remoção.
 
+**Prioridade:**
+Média
+
 **Evidência:**
 ![CT-04](../evidencias/CT-04-remover-produto.png)
 
@@ -116,6 +128,9 @@ Falhou
 
 **Observações:**
 Foi possível acessar o carrinho normalmente. Inicialmente, a página exibiu campos relacionados ao preenchimento de dados para compra. No entanto, ao mover o mouse, a página foi atualizada automaticamente e esses campos desapareceram, retornando para o estado correto de carrinho vazio com a mensagem "There are no product added in the enquiry cart". Esse comportamento indica inconsistência na renderização da interface.
+
+**Prioridade:**
+Baixa
 
 **Evidência:**
 ![CT-05](../evidencias/CT-05-carrinho-vazio.png)
@@ -145,6 +160,9 @@ Passou
 **Observações:**
 O formulário foi acessado e preenchido com sucesso. Todos os campos obrigatórios estavam funcionais. O campo de quantidade permite apenas a seleção de valores pré-definidos (ex: 50, 100), sem opção de entrada manual. De acordo com o contexto da aplicação, esse comportamento está alinhado com a proposta da empresa de atender pedidos em escala. No entanto, a interface não deixa essa limitação explícita, o que pode gerar dúvida para usuários que esperam inserir quantidades menores.
 
+**Prioridade:**
+Alta
+
 **Evidência:**
 ![CT-06](../evidencias/CT-06-preencher-formulario.png)
 
@@ -165,14 +183,13 @@ O formulário foi acessado e preenchido com sucesso. Todos os campos obrigatóri
 * Não devem ocorrer erros durante o envio
 
 **Resultado obtido:**
-(A ser preenchido após execução)
+Passou
 
 **Observações:**
-(A ser preenchido com base no comportamento observado)
+O formulário foi enviado com sucesso após o preenchimento dos dados obrigatórios. O sistema processou a solicitação sem apresentar erros e exibiu feedback adequado ao usuário.
+
+**Prioridade:**
+Alta
 
 **Evidência:**
 ![CT-07](../evidencias/CT-07-envio-formulario.png)
-
-
----
-
