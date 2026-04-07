@@ -1,34 +1,3 @@
-# 🧪 Cenários de Teste
-
-## 🔹 Página do Produto
-* Validar carregamento completo da página do produto.
-* Verificar exibição correta das informações: nome, descrição e preço.
-* Validar imagens do produto (quantidade, resolução e visualização).
-* Testar responsividade básica da página em diferentes dispositivos.
-
-## 🔹 Personalização do Produto
-* Inserir texto válido no campo de personalização e validar salvamento.
-* Tentar prosseguir sem preencher campos obrigatórios e validar mensagens de erro.
-* Inserir caracteres especiais e validar comportamento do sistema.
-* Inserir texto muito longo e verificar se respeita o limite definido.
-
-## 🔹 Carrinho
-* Adicionar produto ao carrinho e validar atualização de itens.
-* Tentar adicionar produto sem personalização quando esta for obrigatória.
-* Alterar quantidade de produtos e validar cálculos do subtotal.
-* Remover produto do carrinho e validar atualização correta.
-
-## 🔹 Fluxo de Compra
-* Iniciar checkout com produto no carrinho.
-* Preencher todos os dados obrigatórios corretamente e avançar no fluxo.
-* Tentar avançar com campos obrigatórios vazios e validar mensagens de erro.
-* Validar continuidade do fluxo até finalização da compra, incluindo resumo e confirmação.
-
-## 🔹 Cenários Negativos
-* Submeter formulário com dados inválidos e validar mensagens de erro.
-* Interromper fluxo no meio do checkout e verificar comportamento do sistema.
-* Executar ações fora do fluxo esperado (ex: atualizar página durante checkout) e validar tratamento de erros.
-
 # 📋 Casos de Teste
 
 ## 🔐 CT-01: Acesso à página do produto
