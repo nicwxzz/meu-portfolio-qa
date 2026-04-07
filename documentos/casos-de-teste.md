@@ -193,3 +193,31 @@ Alta
 
 **Evidência:**
 ![CT-07](../evidencias/CT-07-envio-formulario.png)
+
+---
+
+## 🚫 CT-08: Tentar enviar formulário sem preencher campos obrigatórios
+
+**Pré-condição:** Produto adicionado ao carrinho e formulário de enquiry acessado
+
+**Passos:**
+1. Acessar o formulário de enquiry
+2. Não preencher nenhum campo obrigatório
+3. Clicar no botão de envio do formulário
+
+**Resultado esperado:**
+* O sistema deve impedir o envio do formulário
+* Devem ser exibidas mensagens de validação para os campos obrigatórios
+* Os campos inválidos devem ser destacados visualmente
+
+**Resultado obtido:**
+(A ser preenchido após execução)
+
+**Observações:**
+(A ser preenchido com base no comportamento observado)
+
+**Prioridade:**
+Alta
+
+**Evidência:**
+![CT-08](../evidencias/CT-08-validacao-formulario.png)
