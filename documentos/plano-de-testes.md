@@ -1,113 +1,121 @@
-# 📄 Plano de Testes
+# 🧪 Plano de Testes
 
-## 1. Objetivo
-
-Validar o funcionamento da página de produto e do fluxo de compra de um item personalizado (Custom Greeting Card), garantindo que o usuário consiga visualizar, configurar e solicitar o produto corretamente.
-
----
-
-## 2. Escopo
-
-Serão testadas as seguintes funcionalidades:
-
-### 🔹 Página do Produto
-
-* Carregamento da página
-* Exibição de informações do produto
-* Exibição de preço
-* Interação com opções de personalização (se aplicável)
-
-### 🔹 Personalização do Produto
-
-* Inserção de dados personalizados (texto, campos, etc)
-* Validação de campos obrigatórios
-* Comportamento ao inserir dados inválidos
-
-### 🔹 Carrinho
-
-* Adição do produto ao carrinho
-* Atualização de quantidade
-* Remoção do produto
-
-### 🔹 Fluxo de Compra
-
-* Início do processo de checkout
-* Preenchimento de dados do usuário
-* Continuidade do fluxo até finalização
+## 📌 Objetivo
+Validar o funcionamento do site SwagLabs, assegurando a qualidade das funcionalidades principais, navegação, fluxo do usuário e integridade dos dados inseridos, além de identificar falhas e oportunidades de melhoria.
 
 ---
 
-## 3. Fora de escopo
+## 🎯 Escopo
+### ✔ Funcionalidades testadas
+* Navegação entre páginas do site
+* Visualização de produtos
+* Acesso e comportamento do carrinho
+* Preenchimento e envio do formulário de enquiry
+* Validação de campos (nome, email, telefone, mensagem)
+* Interações com botões e links internos
 
-Não serão contemplados neste projeto:
+---
 
-* Testes de performance
-* Testes de carga
+### 🚀 Funcionalidades previstas (não executadas ainda)
+* Testes de responsividade (mobile e tablet)
+* Testes de performance (tempo de carregamento)
+* Automação de testes com Cypress
+* Testes mais aprofundados de usabilidade
+
+---
+
+### ❌ Fora do escopo
 * Testes de segurança
-* Integrações externas (pagamento real, envio logístico)
+* Testes de carga e estresse
+* Integrações externas
+* Testes em múltiplos navegadores
 
 ---
 
-## 4. Estratégia de Testes
-
-A abordagem adotada será:
-
-* Testes manuais baseados em cenários e casos de teste
-* Testes exploratórios focados na experiência do usuário
-* Validação de fluxos críticos (happy path e cenários negativos)
+## 🧪 Tipos de Teste Executados
+* Testes funcionais
+* Testes exploratórios
+* Testes de validação de dados
+* Testes positivos
+* Testes negativos
 
 ---
 
-## 5. Ambiente de Testes
+## 🔮 Tipos de Teste Planejados
+* Testes de responsividade
+* Testes automatizados
+* Testes de usabilidade
 
-* Aplicação web acessada via navegador
-* Navegador principal: Google Chrome
+---
+
+## 🧰 Ambiente de Teste
+* Navegador: Google Chrome
+* Sistema Operacional: Windows 10/11
 * Dispositivo: Desktop
 
 ---
 
-## 6. Critérios de entrada
-
-* Sistema acessível
-* Página de produto disponível
-* Funcionalidade de carrinho operacional
-
----
-
-## 7. Critérios de saída
-
-* Execução completa dos casos de teste planejados
-* Registro e documentação dos bugs encontrados
-* Evidências coletadas (prints)
+## 📊 Critérios de Entrada
+* Acesso ao site disponível
+* Navegador funcional
+* Conexão com a internet ativa
 
 ---
 
-## 8. Riscos
-
-* Instabilidade da aplicação durante os testes
-* Mudanças na interface do site
-* Funcionalidades limitadas por se tratar de ambiente externo ([Swag Labs][1])
-
----
-
-## 9. Entregáveis
-
-* Plano de testes
-* Casos de teste
-* Relatório de bugs
-* Evidências dos testes
+## 📊 Critérios de Saída
+* Execução dos principais casos de teste
+* Registro das evidências
+* Documentação dos bugs encontrados
+* Validação das funcionalidades críticas
 
 ---
 
-## 10. Fluxo crítico do sistema
+## ✅ Critérios de Sucesso
+* Funcionalidades principais operando corretamente
+* Navegação fluida e sem erros
+* Validações funcionando conforme esperado
+* Fluxo de envio do formulário funcional
 
-O principal fluxo validado será:
+---
 
-1. Acessar página do produto
-2. Personalizar o produto (quando aplicável)
-3. Adicionar ao carrinho
-4. Iniciar processo de compra
+## ❌ Critérios de Falha
+* Comportamentos inesperados
+* Falhas de validação
+* Problemas de navegação
+* Inconsistências na interface
 
-Esse fluxo é essencial pois a plataforma tem como objetivo facilitar a seleção, personalização e pedido de produtos personalizados de forma simples ([Swag Labs][1])
+---
 
-[1]: https://swaglabs.in/?utm_source=chatgpt.com "Swag Labs - Quality Corporate Merchandise"
+## 🐞 Gerenciamento de Defeitos
+Os defeitos identificados são documentados no arquivo:
+```bash
+/documentos/relatorio-de-bugs.md
+```
+
+Cada bug contém:
+* Título
+* Descrição
+* Passos para reprodução
+* Resultado esperado vs atual
+* Severidade
+* Evidência
+
+---
+
+## 📁 Evidências
+As evidências dos testes (imagens e vídeos) estão armazenadas na pasta:
+```bash
+/evidencias
+```
+
+---
+
+## 📌 Riscos
+* Limitação de testes em apenas um navegador
+* Ausência de testes automatizados
+* Possíveis comportamentos não detectados em dispositivos móveis
+
+---
+
+## 📌 Observações
+Durante a execução dos testes, foram identificadas falhas relacionadas à interface e validação de dados, reforçando a importância de testes exploratórios e validação de entradas para garantir a qualidade da aplicação.
