@@ -221,3 +221,36 @@ Alta
 
 **Evidência:**
 ![CT-08](../evidencias/CT-08-validacao-formulario.png)
+
+---
+
+## 🔍 CT-09: Navegar pelo menu principal
+
+**Prioridade:** Alta
+**Justificativa:** Garante que o usuário consiga acessar as principais áreas do site
+
+**Pré-condição:** Usuário com acesso ao site
+
+**Passos:**
+1. Acessar a página inicial do site
+2. Localizar o menu principal
+3. Clicar em cada opção disponível no menu
+4. Observar o comportamento após cada clique
+
+**Resultado esperado:**
+* Cada opção do menu deve redirecionar para a página correta
+* As páginas devem carregar sem erro
+* O conteúdo exibido deve corresponder à opção selecionada
+* Não devem ocorrer falhas ou links quebrados
+
+**Resultado obtido:**
+(A ser preenchido após execução)
+
+**Observações:**
+(A ser preenchido com base no comportamento observado)
+
+**Evidência:**
+![CT-09](../evidencias/CT-09-navegacao-menu.mp4)
+
+---
+
