@@ -50,7 +50,7 @@ Validar o funcionamento do site SwagLabs, assegurando a qualidade das funcionali
 
 ## 🧰 Ambiente de Teste
 * Navegador: Google Chrome
-* Sistema Operacional: Windows 10/11
+* Sistema Operacional: Windows 11
 * Dispositivo: Desktop
 
 ---
