@@ -226,31 +226,66 @@ Alta
 
 ## 🔍 CT-09: Navegar pelo menu principal
 
-**Prioridade:** Alta
-**Justificativa:** Garante que o usuário consiga acessar as principais áreas do site
-
 **Pré-condição:** Usuário com acesso ao site
 
 **Passos:**
-1. Acessar a página inicial do site
-2. Localizar o menu principal
-3. Clicar em cada opção disponível no menu
+1. Acessar a página inicial do site;
+2. Localizar o menu principal;
+3. Clicar em cada opção disponível no menu;
 4. Observar o comportamento após cada clique
 
 **Resultado esperado:**
-* Cada opção do menu deve redirecionar para a página correta
-* As páginas devem carregar sem erro
-* O conteúdo exibido deve corresponder à opção selecionada
+* Cada opção do menu deve redirecionar para a página correta;
+* As páginas devem carregar sem erro;
+* O conteúdo exibido deve corresponder à opção selecionada;
 * Não devem ocorrer falhas ou links quebrados
 
 **Resultado obtido:**
-(A ser preenchido após execução)
+Passou
 
 **Observações:**
-(A ser preenchido com base no comportamento observado)
+A navegação pelo menu principal ocorreu conforme esperado. Todas as opções redirecionaram corretamente para suas respectivas páginas, sem falhas ou inconsistências.
+
+**Prioridade:**
+Alta
 
 **Evidência:**
 https://youtu.be/GJ3kKRtd5Zs
+
+---
+
+## 🧪 CT-10: Validar preenchimento de campos do formulário (dados válidos e inválidos)
+
+**Pré-condição:** Formulário de enquiry acessado
+
+**Passos:**
+1. Preencher todos os campos obrigatórios com dados válidos;
+2. Enviar o formulário e validar comportamento;
+3. Retornar ao formulário;
+4. Inserir dados inválidos nos campos;
+   * Nome com números (ex: "2114324");
+   * Email inválido (ex: "gmail.com");
+5. Tentar enviar o formulário
+
+**Resultado esperado:**
+* O sistema deve permitir envio com dados válidos;
+* O sistema deve impedir envio com dados inválidos;
+* O campo Email deve apresentar validação adequada;
+* O campo Nome deve aceitar apenas caracteres válidos (letras);
+* Após correção, o sistema deve permitir envio normalmente
+
+**Resultado obtido:**
+Falhou
+
+**Observações:**
+O sistema permitiu o envio com dados válidos conforme esperado. Ao inserir email inválido, o sistema bloqueou corretamente o envio e exibiu mensagem de validação. No entanto, o campo Nome permitiu a inserção de valores numéricos e não apresentou validação, permitindo potencial envio de dados inválidos. Os campos de telefone e mensagem funcionaram corretamente.
+
+**Prioridade:**
+Média
+
+**Evidência:**
+https://youtu.be/Rz2oXvXcqI8
+
 
 ---
 
