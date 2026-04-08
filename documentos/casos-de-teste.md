@@ -250,7 +250,7 @@ Alta
 (A ser preenchido com base no comportamento observado)
 
 **Evidência:**
-![CT-09](../evidencias/CT-09-navegacao-menu.mp4)
+https://youtu.be/GJ3kKRtd5Zs
 
 ---
 
