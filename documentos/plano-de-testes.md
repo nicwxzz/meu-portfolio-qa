@@ -103,7 +103,7 @@ Cada bug contém:
 ---
 
 ## 📁 Evidências
-As evidências dos testes (imagens e vídeos) estão armazenadas na pasta:
+As evidências dos testes estão armazenadas na pasta:
 ```bash
 /evidencias
 ```
