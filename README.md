@@ -33,7 +33,6 @@ Os testes contemplam os seguintes fluxos:
 * Testes de performance
 * Testes de carga
 * Testes de segurança
-* Testes automatizados (fase futura)
 
 ---
 
