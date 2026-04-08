@@ -22,7 +22,7 @@ A página deve carregar diretamente no estado correto de carrinho vazio, sem exi
 Média
 
 **Evidência:**  
-(link do vídeo ou imagem)
+![CT-05](../evidencias/CT-05-carrinho-vazio.png)
 
 ---
 
