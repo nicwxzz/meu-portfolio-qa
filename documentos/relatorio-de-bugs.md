@@ -1,6 +1,5 @@
 ## 🐞 BUG-01
 
-**Título:**
 [Carrinho] Inconsistência ao carregar carrinho vazio
 
 **Ambiente:**
@@ -28,7 +27,6 @@ Média
 
 ## 🐞 BUG-02
 
-**Título:**
 [Formulário] Campo Nome aceita valores numéricos
 
 **Ambiente:**  
