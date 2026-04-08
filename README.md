@@ -70,8 +70,11 @@ A automação será implementada futuramente utilizando ferramentas como Cypress
 
 ## 📊 Status do projeto
 ✔ Planejamento concluído
+
 ✔ Casos de teste executados
+
 ✔ Bugs documentados
+
 🚧 Automação em desenvolvimento
 
 ---
