@@ -48,4 +48,4 @@ O campo Nome deve aceitar apenas caracteres válidos (letras) e impedir envio co
 Baixa
 
 **Evidência:**  
-[(link do vídeo ou imagem)](https://youtu.be/Rz2oXvXcqI8)
+https://youtu.be/Rz2oXvXcqI8
