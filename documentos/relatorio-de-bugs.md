@@ -28,7 +28,7 @@ Média
 
 ## 🐞 BUG-02
 
-**Título:**  
+**Título:**
 [Formulário] Campo Nome aceita valores numéricos
 
 **Ambiente:**  
