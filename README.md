@@ -1,4 +1,4 @@
-# Projeto de Testes QA - SwagLabs
+# Projeto de Testes QA
 
 ## Sobre o projeto
 Este repositório contém o planejamento, a documentação e a execução de testes manuais realizados no site SwagLabs, uma plataforma de e-commerce focada em produtos personalizados.
