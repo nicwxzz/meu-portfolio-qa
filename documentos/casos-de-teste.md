@@ -1,6 +1,6 @@
-# 📋 Casos de Teste
+# Casos de Teste
 
-## 🔐 CT-01: Acesso à página do produto
+## CT-01: Acesso à página do produto
 
 **Pré-condição:** Usuário com acesso à internet
 
@@ -27,7 +27,7 @@ Alta
 
 ---
 
-## 🛒 CT-02: Adicionar produto ao carrinho
+## CT-02: Adicionar produto ao carrinho
 
 **Pré-condição:** Página do produto carregada
 
@@ -54,7 +54,7 @@ Alta
 
 ---
 
-## 🛒 CT-03: Acessar o carrinho
+## CT-03: Acessar o carrinho
 
 **Pré-condição:** Produto adicionado ao carrinho
 
@@ -81,7 +81,7 @@ Alta
 
 ---
 
-## 🗑️ CT-04: Remover produto do carrinho
+## CT-04: Remover produto do carrinho
 
 **Pré-condição:** Produto adicionado ao carrinho
 
@@ -109,7 +109,7 @@ Média
 
 ---
 
-## 🛒 CT-05: Acessar carrinho sem produtos
+## CT-05: Acessar carrinho sem produtos
 
 **Pré-condição:** Nenhum produto adicionado ao carrinho
 
@@ -137,7 +137,7 @@ Baixa
 
 ---
 
-## 📄 CT-06: Preencher formulário de enquiry com produto no carrinho
+## CT-06: Preencher formulário de enquiry com produto no carrinho
 
 **Pré-condição:** Produto adicionado ao carrinho
 
@@ -168,7 +168,7 @@ Alta
 
 ---
 
-## 📤 CT-07: Enviar formulário de enquiry com dados válidos
+## CT-07: Enviar formulário de enquiry com dados válidos
 
 **Pré-condição:** Produto adicionado ao carrinho e formulário de enquiry acessado
 
@@ -196,7 +196,7 @@ Alta
 
 ---
 
-## 🚫 CT-08: Tentar enviar formulário sem preencher campos obrigatórios
+## CT-08: Tentar enviar formulário sem preencher campos obrigatórios
 
 **Pré-condição:** Produto adicionado ao carrinho e formulário de enquiry acessado
 
@@ -224,7 +224,7 @@ Alta
 
 ---
 
-## 🔍 CT-09: Navegar pelo menu principal
+## CT-09: Navegar pelo menu principal
 
 **Pré-condição:** Usuário com acesso ao site
 
@@ -254,7 +254,7 @@ https://youtu.be/GJ3kKRtd5Zs
 
 ---
 
-## 🧪 CT-10: Validar preenchimento de campos do formulário (dados válidos e inválidos)
+## CT-10: Validar preenchimento de campos do formulário (dados válidos e inválidos)
 
 **Pré-condição:** Formulário de enquiry acessado
 
